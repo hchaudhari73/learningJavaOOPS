@@ -4,10 +4,12 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Pen pen1 = new Pen();
-        pen1.color = "Black";
-        pen1.type = "gel";
+        Student s1 = new Student();
+        s1.name = "Harshal";
+        s1.age = 25;
 
-        pen1.write();
+        Student s2 = new Student(s1);
+
+        s1.printInfo();
     }
 }
