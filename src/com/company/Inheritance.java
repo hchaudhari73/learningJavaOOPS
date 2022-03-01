@@ -3,6 +3,7 @@ package com.company;
 class Inheritance {
 
     // Increases usability of code.
+    // There are four types of inheritances.
 
 }
 

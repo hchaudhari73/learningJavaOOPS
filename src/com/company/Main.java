@@ -1,15 +1,8 @@
 package com.company;
+import com.company.bank.Bank;
 
 public class Main {
 
-    public static void main(String[] args) {
+    Bank bank = new Bank();
 
-        Student s1 = new Student();
-        s1.name = "Harshal";
-        s1.age = 25;
-
-        Student s2 = new Student(s1);
-
-        s1.printInfo();
-    }
 }
