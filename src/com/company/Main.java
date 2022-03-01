@@ -1,8 +1,9 @@
 package com.company;
-import com.company.bank.Bank;
 
 public class Main {
-
-    Bank bank = new Bank();
-
+    public static void main(String[] args) {
+        Horse horse = new Horse();
+        horse.walks();
+        horse.eats();
+    }
 }
